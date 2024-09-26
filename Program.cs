@@ -122,7 +122,12 @@ namespace HugeFileInspector
 
                 Console.WriteLine($"\nTotal matches: {totalMatches}");
 
-                if (outputFileProvided)
+                if (distinctMode)
+                {
+                    Console.WriteLine($"Total distinct matches: {totalDistinctMatches}");
+                }
+
+                if (outputFileProvided && writer != null)
                 {
                     await writer!.FlushAsync();
                     writer.Dispose();
