@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HugeFileInspector", "HugeFileInspector.csproj", "{A895D980-CD90-461D-AAA9-26F75C76BA37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A895D980-CD90-461D-AAA9-26F75C76BA37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A895D980-CD90-461D-AAA9-26F75C76BA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A895D980-CD90-461D-AAA9-26F75C76BA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A895D980-CD90-461D-AAA9-26F75C76BA37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {290BE544-4097-4877-8BDA-51E8375B5CC8}
+	EndGlobalSection
+EndGlobal
